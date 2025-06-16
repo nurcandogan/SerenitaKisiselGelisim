@@ -1,0 +1,172 @@
+/* Tailwind-like utility classes */
+.hidden {
+  display: none;
+}
+
+.peer:checked ~ .peer-checked\:fill-pink-500 {
+  fill: #ec4899;
+}
+
+.peer:checked ~ .peer-checked\:hover\:text-white:hover {
+  color: white;
+}
+
+.w-fit {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.size-6 {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.border-pink-700 {
+  border-color: #be185d;
+}
+
+.fill-none {
+  fill: none;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.font-extrabold {
+  font-weight: 800;
+}
+
+.text-pink-500 {
+  color: #ec4899;
+}
+
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.active\:scale-90:active {
+  transform: scale(0.9);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.duration-500 {
+  transition-duration: 500ms;
+}
+
+.group {
+  position: relative;
+}
+
+.group:hover .group-hover\:translate-x-4 {
+  transform: translateX(1rem);
+}
+
+.group:hover .group-hover\:scale-\[1100\%\] {
+  transform: scale(1100%);
+  opacity: 0.1;
+  z-index: -1;
+  position: absolute;
+  right: -5px;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.inset-0 {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.pointer-events-none {
+  pointer-events: none;
+}
+
+.bg-pink-500 {
+  background-color: #ec4899;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.group:hover .group-hover\:opacity-5 {
+  opacity: 0.05;
+}
+
+.transition-opacity {
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+/* Custom fixes for the like button */
+.peer:checked + div {
+  fill: #ec4899;
+}
+
+.peer:checked + div:hover {
+  color: white;
+}
+
+svg {
+  position: relative;
+  z-index: 0;
+}
+
+/* Additional styles for positioning */
+.relative {
+  position: relative;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
