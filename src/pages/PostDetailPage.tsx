@@ -1,6 +1,5 @@
-import React from 'react'
 import { LoaderFunctionArgs, useLoaderData } from 'react-router-dom'
-import { Container, Card, Badge, Button } from 'react-bootstrap'
+import { Badge} from 'react-bootstrap'
 
 interface postParams {
     userId:number;

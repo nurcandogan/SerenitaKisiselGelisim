@@ -2,7 +2,7 @@ import { createBrowserRouter, RouteObject } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import UserPage, { usersLoader } from "./pages/UserPage";
 import FavoritePage from "./pages/FavoritePage";
-import RootLayout from "./root.";
+import RootLayout from "./root";
 import UserDetailsPage, { usersDetailLoader } from "./pages/UserDetailsPage";
 import UserPostPage, { userPostLoader } from "./pages/UserPostPage";
 import UserAlbumsPage, { userAlbumLoader } from "./pages/UserAlbumsPage";

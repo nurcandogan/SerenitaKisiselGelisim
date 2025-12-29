@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link, LoaderFunctionArgs, useLoaderData, useParams } from 'react-router-dom';
 import { Badge } from 'react-bootstrap';
 

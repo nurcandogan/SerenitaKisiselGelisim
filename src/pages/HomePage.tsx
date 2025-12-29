@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Container, Row, Col, Card, Button, Badge, ListGroup } from 'react-bootstrap';
+import { Container, Row, Col, Card, Button, Badge,  } from 'react-bootstrap';
 
 // Hover efekti için CSS
 const hoverCardStyle = `

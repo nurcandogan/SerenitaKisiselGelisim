@@ -1,7 +1,7 @@
 import React from 'react'
 import { useStore } from '../store/store';
 import { Link } from 'react-router-dom';
-import { Button, Container, Row, Col, Card } from 'react-bootstrap';
+import {  Container, Row, Col, Card } from 'react-bootstrap';
 
 function FavoritePage() {
     const {favorites, removeFavorite} = useStore();

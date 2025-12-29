@@ -1,5 +1,4 @@
-import React from 'react'
-import { Button, Container, Row, Col, Card } from 'react-bootstrap';
+import { Container, Row, Col, Card } from 'react-bootstrap';
 import { LoaderFunctionArgs, useLoaderData, useParams } from 'react-router-dom';
 import { useStore } from '../store/store';
 

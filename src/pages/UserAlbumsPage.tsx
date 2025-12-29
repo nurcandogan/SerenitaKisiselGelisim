@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link, LoaderFunctionArgs, useLoaderData } from 'react-router-dom';
 import { Row, Col, Card } from 'react-bootstrap';
 

@@ -1,6 +1,5 @@
-import React from 'react'
 import { Link, useLoaderData } from 'react-router-dom';
-import { Container, Row, Col, Card, Badge } from 'react-bootstrap';
+import { Container, Row, Col, Card} from 'react-bootstrap';
 
 // Kart stilleri için CSS
 const cardStyles = `

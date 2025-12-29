@@ -1,4 +1,4 @@
-import { Nav, Container, Row, Col, Card, Badge } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import { Link, LoaderFunctionArgs, Outlet, useLoaderData, useParams } from 'react-router-dom';
 
 // Stil tanımlamaları
